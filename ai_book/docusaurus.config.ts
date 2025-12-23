@@ -88,7 +88,7 @@ const config: Config = {
           label: 'AI Book',
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/Darakshan2025/ai_hackahton_book',
           label: 'GitHub',
           position: 'right',
         },
@@ -128,7 +128,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/Darakshan2025/ai_hackahton_book',
             },
           ],
         },
