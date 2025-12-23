@@ -1,55 +1,48 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!-- SYNC IMPACT REPORT:
+Version change: N/A (initial version) → 1.0.0
+Modified principles: N/A
+Added sections: All principles and sections added based on project requirements
+Removed sections: N/A
+Templates requiring updates:
+- .specify/templates/plan-template.md: ✅ updated to align with textbook principles
+- .specify/templates/spec-template.md: ✅ updated to align with textbook requirements
+- .specify/templates/tasks-template.md: ✅ updated to align with textbook task types
+- .specify/templates/commands/*.md: ✅ reviewed for textbook-specific guidance
+Follow-up TODOs: None
+-->
+
+# AI-Native Textbook on Physical AI & Humanoid Robotics Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### Technical Accuracy and Scientific Rigor
+All content must be technically accurate and grounded in established robotics, AI, and control theory. Factual claims must be supported by peer-reviewed sources, official documentation, or verifiable standards. No unverified claims or speculation should be presented as fact.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### Educational Clarity for STEM Learners
+Content must be clearly written and accessible to undergraduate and graduate STEM students. Complex concepts should be explained with appropriate examples, diagrams, and step-by-step explanations that build understanding progressively from fundamentals to advanced topics.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### AI-Native Pedagogy
+The textbook embraces AI-native learning approaches including agent-assisted learning, interactive simulations, and tool-assisted understanding. Content should be structured to work effectively with AI agents and modern learning tools.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### Reproducibility and Traceability
+All technical claims, experiments, and examples must be reproducible. Sources must be properly cited using APA style, and all code examples, data, and methodologies must be traceable to their origins with clear attribution.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### Originality and Academic Integrity
+All content must be original writing with 0% plagiarism. Proper attribution must be given to all sources, and no copyrighted material should be reproduced without permission. All examples and explanations must be created de novo.
 
-### [PRINCIPLE_6_NAME]
+### Visual Learning Support
+Diagrams, equations, and practical examples must be included wherever they enhance understanding. Mathematical concepts should be presented with both symbolic notation and intuitive explanations to support different learning styles.
 
+## Additional Standards
 
-[PRINCIPLE__DESCRIPTION]
+All factual claims must be cited using peer-reviewed papers, standards, or official documentation. Preferred citation style is APA format. The textbook must include diagrams, equations, and examples where applicable to support learning objectives. Content should be structured in a modular chapter format suitable for classroom use with clear learning objectives per chapter.
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+## Development Workflow
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
-
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+Content development follows a structured process with clear learning objectives, technical verification, and educational review. Each chapter must be independently reviewable and testable for both technical accuracy and pedagogical effectiveness. The Docusaurus framework with Spec-Kit Plus and Claude Code tools must be used for content creation, versioning, and deployment to GitHub Pages.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+This constitution governs all content creation and technical decisions for the AI-Native Textbook project. All contributors must adhere to these principles. Amendments to this constitution require documented justification and approval from project maintainers. All content must be verified for compliance with these principles before acceptance.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-12-23 | **Last Amended**: 2025-12-23
